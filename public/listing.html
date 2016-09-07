@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Palmela</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Custom Fonts -->
+
+
+  <!--<link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>-->
+  <!--<link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>-->
+  <!--<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>-->
+
+  <!-- Theme CSS -->
+  <link href="css/palmela.css" rel="stylesheet">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+<!-- Navigation -->
+<nav id="mainNav" class="navbar navbar-default navbar-custom pages navbar-static-top">
+  <div class="container">
+
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <i class="ion-navicon-round"></i>
+      </button>
+      <a class="navbar-brand page-scroll" href="#page-top">
+        <img src="img/palmela-marca.png" alt="Logo Palmela">
+
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="hidden">
+          <a href="#page-top"></a>
+        </li>
+        <li>
+          <a href="#">Navegar</a>
+        </li>
+        <li>
+          <a href="#">Liste seu serviço</a>
+        </li>
+        <li>
+          <a href="#">Login</a>
+        </li>
+        <li>
+          <a href="#" class="btn btn-login">Entrar</a>
+        </li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+</nav>
+
+<!--Container-->
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 col-lg-12">
+      <section class="search-field">
+        <div class="row">
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <p class="legend">Para o seu evento sugerimos</p>
+            <ul class="list-inline">
+              <li>02 Garçons</li>
+              <li>01 Apoio de cozinha</li>
+            </ul>
+          </div>
+          <div class="col-sm-12 col-md-8 col-lg-8 pull-right-not-sm">
+            <form class="form-inline" action="">
+              <!-- Cidade, Estado -->
+              <div class="form-group">
+                <label class="sr-only" for="cidadeEstado">Cidade, Estado</label>
+                <input type="text" class="form-control" id="cidadeEstado" placeholder="Cidade,Estado">
+              </div>
+              <!-- Data -->
+              <div class="form-group">
+                <label class="sr-only" for="data">Data</label>
+                <input type="text" class="form-control" id="data" placeholder="Data">
+              </div>
+              <!-- Tipo de evento -->
+              <div class="form-group">
+                <label class="sr-only" for="tipodeEvento">Tipo de Evento</label>
+                <select class="form-control" name=""  id="tipodeEvento">
+                  <option value="">Tipo de Evento</option>
+                  <option value="">Opção 1</option>
+                  <option value="">Opção 2</option>
+                  <option value="">Opção 3</option>
+                  <option value="">Opção 4</option>
+                  <option value="">Opção 5</option>
+                </select>
+              </div>
+              <!-- N° de convidados -->
+              <div class="form-group">
+                <label class="sr-only" for="numeroConvidados">Número de convidados</label>
+                <input type="text" class="form-control" id="numeroConvidados" placeholder="N. de convidados">
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <section class="filter-result">
+    <form action="" class="header-result form-inline">
+      <p>Garçons <span>(321 encontrados)</span> </p>
+      <div class="form-group">
+        <label class="sr-only" for="aceitaFantasia">Aceita fantasia</label>
+        <select class="form-control input-sm" name=""  id="aceitaFantasia">
+          <option value="">Aceita fantasia?</option>
+          <option value="">Sim</option>
+          <option value="">Não</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label class="sr-only" for="tipoUniforme">Tipo de Evento</label>
+
+        <select class="form-control input-sm" name=""  id="tipoUniforme">
+          <option value="">Tipo de Evento</option>
+          <option value="">Opção 1</option>
+          <option value="">Opção 2</option>
+          <option value="">Opção 3</option>
+          <option value="">Opção 4</option>
+          <option value="">Opção 5</option>
+        </select>
+      </div>
+      <!-- range -->
+    </form>
+
+    <div class="row">
+      <div class="col-sm-12 col-md-3">
+        <div class="card thumbnail">
+          <img src="img/profile-01.png" alt="...">
+          <div class="caption">
+            <div class="title">
+              <h3>Garçom</h3>
+              <p class="numero-funcionario">Juliano Fonseca</p>
+
+            </div>
+
+            <div class="rating text-center">
+              <h3>Avaliação</h3>
+              <div class="stars">
+                <span class="icon ion-star"></span>
+                <span class="icon ion-star"></span>
+                <span class="icon ion-star"></span>
+                <span class="icon ion-star"></span>
+                <span class="icon ion-star"></span><span>(5,0)</span>
+              </div>
+            </div>
+            <div class="valor-job text-center">
+              <h3>Valor/Job <span>(8 horas)</span></h3>
+              <p class="valor text-center">
+                <sup>R$</sup>
+                272
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-3">
+        <div class="card thumbnail">
+          <img src="img/profile-01.png" alt="...">
+          <div class="caption">
+            <div class="title">
+              <h3>Garçom</h3>
+              <p class="numero-funcionario">Juliano Fonseca</p>
+
+            </div>
+
+            <div class="rating text-center">
+              <h3>Avaliação</h3>
+              <div class="stars">
+                <span class="icon ion-star"></span>
+                <span class="icon ion-star"></span>
+                <span class="icon ion-star"></span>
+                <span class="icon ion-star"></span>
+                <span class="icon ion-star"></span><span>(5,0)</span>
+              </div>
+            </div>
+            <div class="valor-job text-center">
+              <h3>Valor/Job <span>(8 horas)</span></h3>
+              <p class="valor text-center">
+                <sup>R$</sup>
+                272
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-3">
+        <div class="card thumbnail">
+          <img src="img/profile-01.png" alt="...">
+          <div class="caption">
+            <div class="title">
+              <h3>Garçom</h3>
+              <p class="numero-funcionario">Juliano Fonseca</p>
+
+            </div>
+
+            <div class="rating text-center">
+              <h3>Avaliação</h3>
+              <div class="stars">
+                <span class="icon ion-star"></span>
+                <span class="icon ion-star"></span>
+                <span class="icon ion-star"></span>
+                <span class="icon ion-star"></span>
+                <span class="icon ion-star"></span><span>(5,0)</span>
+              </div>
+            </div>
+            <div class="valor-job text-center">
+              <h3>Valor/Job <span>(8 horas)</span></h3>
+              <p class="valor text-center">
+                <sup>R$</sup>
+                272
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-3">
+        <div class="card thumbnail">
+          <img src="img/profile-01.png" alt="...">
+          <div class="caption">
+            <div class="title">
+              <h3>Garçom</h3>
+              <p class="numero-funcionario">Juliano Fonseca</p>
+
+            </div>
+
+            <div class="rating text-center">
+              <h3>Avaliação</h3>
+              <div class="stars">
+                <span class="icon ion-star"></span>
+                <span class="icon ion-star"></span>
+                <span class="icon ion-star"></span>
+                <span class="icon ion-star"></span>
+                <span class="icon ion-star"></span><span>(5,0)</span>
+              </div>
+            </div>
+            <div class="valor-job text-center">
+              <h3>Valor/Job <span>(8 horas)</span></h3>
+              <p class="valor text-center">
+                <sup>R$</sup>
+                272
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-3">
+        <div class="card thumbnail">
+          <img src="img/profile-01.png" alt="...">
+          <div class="caption">
+            <div class="title">
+              <h3>Garçom</h3>
+              <p class="numero-funcionario">Juliano Fonseca</p>
+
+            </div>
+
+            <div class="rating text-center">
+              <h3>Avaliação</h3>
+              <div class="stars">
+                <span class="icon ion-star"></span>
+                <span class="icon ion-star"></span>
+                <span class="icon ion-star"></span>
+                <span class="icon ion-star"></span>
+                <span class="icon ion-star"></span><span>(5,0)</span>
+              </div>
+            </div>
+            <div class="valor-job text-center">
+              <h3>Valor/Job <span>(8 horas)</span></h3>
+              <p class="valor text-center">
+                <sup>R$</sup>
+                272
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-3">
+        <div class="card thumbnail">
+          <img src="img/profile-01.png" alt="...">
+          <div class="caption">
+            <div class="title">
+              <h3>Garçom</h3>
+              <p class="numero-funcionario">Juliano Fonseca</p>
+
+            </div>
+
+            <div class="rating text-center">
+              <h3>Avaliação</h3>
+              <div class="stars">
+                <span class="icon ion-star"></span>
+                <span class="icon ion-star"></span>
+                <span class="icon ion-star"></span>
+                <span class="icon ion-star"></span>
+                <span class="icon ion-star"></span><span>(5,0)</span>
+              </div>
+            </div>
+            <div class="valor-job text-center">
+              <h3>Valor/Job <span>(8 horas)</span></h3>
+              <p class="valor text-center">
+                <sup>R$</sup>
+                272
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+
+
+
+      <button class="btn btn-secondary pull-right">
+        <i class="icon ion-plus"></i>  Ver todos</button>
+      </div>
+    </div>
+  </section>
+</div>
+
+
+<!--footer-->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <a href="index.html"><img src="img/palmela-marca.png" alt=""></a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <ul class="list-unstyled">
+          <li><a href="">Sobre a empresa</a></li>
+          <li><a href="">Imprensa</a></li>
+          <li><a href="">FAQ</a></li>
+          <li><a href="">Políticas de uso</a></li>
+          <li><a href="">Termos e Privacidade</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-unstyled">
+          <li><a href="">Garçons</a></li>
+          <li><a href="">Maitres</a></li>
+          <li><a href="">Copeiros</a></li>
+          <li><a href="">Recepcionistas</a></li>
+          <li><a href="">Cozinheiros</a></li>
+          <li><a href="">Chefs</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <div class="row">
+          <div class="col-md-12">
+            <a class="btn btn-default cadastro" href="#">Faça seu cadastro e liste seus serviços</a>
+          </div>
+        </div>
+        <!-- end.row -->
+        <div class="row">
+          <div class="col-md-12">
+            <p>Siga</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <nav class="social">
+              <ul class="list-inline">
+                <li>
+                  <a href="#" class="btn btn-default">
+                    <i class="icon ion-social-facebook"></i></a></li>
+                <li>
+                  <a href="#" class="btn btn-default">
+                    <i class="icon ion-social-instagram-outline"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="btn btn-default">
+                    <i class="icon ion-social-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="btn btn-default">
+                    <i class="icon ion-social-youtube-outline"></i>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <!-- end col-md-4 -->
+    </div>
+    <!-- end .row -->
+    <div class="row">
+      <hr/>
+      <p class="text-center copyright">© 2016 Palmela, Banquetes a gosto</p>
+    </div>
+  </div>
+  <!-- end .container -->
+</footer>
+
+
+<!-- jQuery -->
+<script src="vendor/jquery/jquery.min.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
