@@ -6,8 +6,6 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="">
 
   <title>Palmela</title>
 
@@ -15,11 +13,6 @@
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   <!-- Custom Fonts -->
-
-
-  <!--<link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>-->
-  <!--<link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>-->
-  <!--<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>-->
 
   <!-- Theme CSS -->
   <link href="css/palmela.css" rel="stylesheet">
@@ -86,12 +79,7 @@
           <div class="form-group autocomplete">
             <label class="sr-only" for="cidadeEstado">Cidade, Estado</label>
             <input type="text" class="form-control" id="cidadeEstado" ng-model="filters.cityState"  ng-click="clickInputAutocomplete()" placeholder="Cidade, Estado">
-            <div class="row" ng-repeat="city in cities" ng-show="showAutocomplete && cities.length > 0" ng-click="clickCity(city)">
-                    <span>{{city.label}}</span>
-                  </div>
-                  <div class="row" ng-show="showAutocomplete && cities.length <= 0">
-                    Não há resultados
-                  </div>
+           
           </div>
           <div class="form-group">
             <label class="sr-only" for="data">Data</label>
