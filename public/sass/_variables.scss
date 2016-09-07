@@ -1,0 +1,16 @@
+// Variables
+
+// Gray and Brand Colors for use across theme
+
+$theme-primary:    #752872;
+$theme-secondary:    #e94260;
+
+$theme-danger:     #e74c3c;
+
+$gray-base:              #455262 !default;
+$gray-darker:            lighten($gray-base, 13.5%) !default; // #222$
+$gray-dark:              lighten(desaturate(adjust-hue(#455262, 0.2299), 3.3756), 5.0980);
+$gray:                   lighten(saturate(adjust-hue(#455262, -3.1034), 2.6347), 57.4510);
+$gray-light:             #535f6e;
+$gray-lighter:           lighten($gray-base, 93.5%) !default; // #eee
+
